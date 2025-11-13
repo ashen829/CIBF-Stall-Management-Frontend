@@ -1,0 +1,43 @@
+<div class="register-page">
+  <div class="register-left">
+    <div class="info">
+  <img src="/assets/cibf-logo.svg" alt="CIBF Logo" class="brand-logo" />
+      <h1>Create an account</h1>
+      <p>Sign up as a Vendor or an Employee to manage stalls at the Colombo International Book Fair.</p>
+    </div>
+  </div>
+  <div class="register-right">
+    <div class="register-form">
+      <form>
+        <div class="input-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Full Name" required />
+        </div>
+        <div class="input-group">
+          <label>Business Name</label>
+          <input type="text" placeholder="Business Name" />
+        </div>
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" placeholder="Email" required />
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="Password" required />
+        </div>
+        <div class="input-group">
+          <label>Role</label>
+          <select required>
+            <option value="">Select role</option>
+            <option value="VENDOR">Vendor</option>
+            <option value="EMPLOYEE">Employee</option>
+          </select>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="register-btn">Sign up</button>
+          <a routerLink="/login" class="existing">Already have an account? Log in</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

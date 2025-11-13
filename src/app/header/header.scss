@@ -1,0 +1,100 @@
+
+.main-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.7rem 2.2rem;
+	background: #181818;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	min-height: 70px;
+}
+
+.header-left {
+	display: flex;
+	align-items: center;
+}
+
+.company-logo {
+	height: 48px;
+	width: auto;
+	margin-right: 1.2rem;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+	gap: 2.2rem;
+}
+
+.notification {
+	position: relative;
+}
+.notification-bell {
+	position: relative;
+	color: #FFD600;
+	font-size: 1.7rem;
+	display: flex;
+    padding: 8px;
+	align-items: center;
+}
+.notification-count {
+	position: absolute;
+	top: -8px;
+	right: -12px;
+	background: #FFD600;
+	color: #181818;
+	font-size: 0.85rem;
+	font-weight: 700;
+	border-radius: 50%;
+	padding: 2px 7px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	gap: 1.1rem;
+	background: rgba(255,255,255,0.04);
+	padding: 0.4rem 1.2rem;
+	border-radius: 12px;
+}
+.profile-pic {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid #FFD600;
+}
+.user-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #FFD600;
+}
+.user-name {
+	font-weight: 600;
+	font-size: 1.05rem;
+	margin-bottom: 2px;
+}
+.user-email {
+	font-size: 0.92rem;
+	color: #fff;
+	opacity: 0.8;
+}
+.signout-btn {
+	background: #FFD600;
+	color: #181818;
+	border: none;
+	border-radius: 8px;
+	padding: 0.5rem 1.1rem;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+	margin-left: 0.7rem;
+	transition: background 0.2s, color 0.2s;
+	box-shadow: 0 2px 8px rgba(44, 19, 80, 0.10);
+}
+.signout-btn:hover {
+	background: #fff;
+	color: #FFD600;
+}
